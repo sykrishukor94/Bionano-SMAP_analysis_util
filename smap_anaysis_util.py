@@ -613,7 +613,7 @@ def cluster_refpos_single_nogenes(prev_cluster_ID, df_in, posWindow, reciprocalS
     return prev_cluster_ID, sv_df, row_df
 
 
-def cluster_sv_single_cohort_nogenes(cleaned_df):
+def group_sv_single_cohort_nogenes(cleaned_df):
     # initialize column of T/F, where SVs == T have been clustered, and F haven't.
     cleaned_df.loc[:, 'clustered'] = False    
     cleaned_df.loc[:, 'cluster_ID'] = -1
@@ -645,5 +645,4 @@ def cluster_sv_single_cohort_nogenes(cleaned_df):
     return df_in, df_out
 
 
-# Get percent presence controldb
 
