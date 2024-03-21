@@ -119,4 +119,9 @@ cluster_refpos_single_nogenes(prev_cluster_ID, df_in, posWindow, reciprocalSize)
 
 See `~/jupyter_notebooks` for .ipynb that uses variations of the scripts. Select `smap_analysis` as the kernel before running any code in the notebooks.
 
+Import the util py script by declaring:
+```
+from smap_analysis_util import *
+```
+
 For example, `partial_dup_vs_ctrldb_cluster_unique_id_overlap_exons.ipynb` uses most of the functions above including.
