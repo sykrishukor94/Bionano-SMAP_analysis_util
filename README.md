@@ -4,9 +4,9 @@
 ---
 Author: Syukri Shukor
 
-Contact: sshukor@bionano.com, achitsazan@bionano.com or apang@bionano.com
+Contact: sshukor@bionano.com or sykrishukor@gmail.com
 
-This repository documents python notebooks and scripts used for Clinical Affairs cohort study. 
+This repository documents python notebooks and scripts used for Clinical Affairs cohort studies, as well as various applications that require manipulation and analysis of SMAP files. More information on SMAP files can be found in [OGM File Format Specification Sheet, Page 30](https://bionano.com/wp-content/uploads/2023/08/CG-00045-OGM-File-Format-Specification-Sheet.pdf)
 
 ## SETUP
 ---
