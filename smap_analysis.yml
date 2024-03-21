@@ -1,0 +1,21 @@
+name: smap_analysis
+
+channels:
+- conda-forge
+
+dependencies:
+- jupyterlab
+- matplotlib
+- numpy
+- pandas
+- papermill
+- pillow
+- pip
+- python>=3.9
+- requests
+- retrolab
+- scipy
+- scikit-learn
+- seaborn
+- statsmodels
+- voila
